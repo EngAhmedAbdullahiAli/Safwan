@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from '../components/Image'
-import  ServiceImage from '../../public/ServiceImage1.png'
+import  ServiceImage from '/ServiceImage1.png'
 import { FaLongArrowAltRight } from "react-icons/fa";
 const ServiceCard = ({src,title, text}) => {
   return (
