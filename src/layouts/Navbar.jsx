@@ -10,7 +10,7 @@ const Navbar = () => {
     <div>
       <section className='py-[18px]'>
         <Container>
-          <Flex>
+          <Flex className='justify-between items-center '>
             <div className='w-3/12'>
               <Image src={Logo} />
             </div>

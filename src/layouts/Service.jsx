@@ -1,0 +1,36 @@
+import React from 'react'
+import Container from '../components/Container'
+import Flex from '../components/Flex'
+import ServiceCard from '../components/ServiceCard'
+import ServiceImage1 from '/ServiceImage1.png'
+import ServiceImage2 from '/ServiceImage2.png'
+import ServiceImage3 from '/ServiceImage3.png'
+const Service = () => {
+    return (
+        <div>
+
+            <section className=' pb-[120px]'>
+                <Container>
+                    <h4 className='text-center text-lg text-[#E5745D] font-voll font-medium mt-[220px]'>MY SERVICES</h4>
+                    <h2 className='text-center text-[50px] text-[#00413D] font-voll font-medium w-[522px] mx-auto leading-[60px]
+                pt-3
+                '>Provide Wide Range of Digital Services</h2>
+                    <Flex className='justify-between pt-10'>
+                        <ServiceCard src={ServiceImage1} title="Ui/Ux Design" text="Dolor repellendus tempo ribus aue
+quibusdam offi ciis debitis rerum na
+aibus minima veniam." />
+                        <ServiceCard src={ServiceImage2} title="Mobile App Design" text="Dolor repellendus tempo ribus aue
+                                     quibusdam offi ciis debitis rerum na
+                                    aibus minima veniam."/>
+                        <ServiceCard src={ServiceImage3} title="Web Design" text="Dolor repellendus tempo ribus aue
+quibusdam offi ciis debitis rerum na
+aibus minima veniam." />
+                    </Flex>
+                </Container>
+            </section>
+
+        </div>
+    )
+}
+
+export default Service

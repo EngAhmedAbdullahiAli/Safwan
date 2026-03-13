@@ -12,10 +12,15 @@ export default {
       },
        fontFamily: {
       'Jost': ['Jost'],
+      'voll': ['Vollkorn'],
     },
     maxWidth:{
       'container':"1170px",
-    }
+    },
+      backgroundImage:{
+          "banner":"url('banner.png')",
+          "banner-left":"url('banner-left.png')"
+        }
 
     },
   },

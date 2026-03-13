@@ -1,9 +1,14 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Navbar from './layouts/Navbar'
+import Banner from './layouts/Banner'
+import Service from './layouts/Service'
 const App = () => {
   return (
     <div>
-<Navbar/>
+      <Navbar />
+      <Banner />
+      <Service/>
+      
     </div>
   )
 }
