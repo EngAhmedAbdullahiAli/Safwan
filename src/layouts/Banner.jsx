@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div>
             <section className='group overflow-hidden z-10 relative w-full bg-banner bg-no-repeat 
-            bg-cover bg-center py-[221px]'>
+            bg-cover bg-center py-[221px] mb-[220px]'>
                 <div className='group-hover:right-0 -z-10 absolute top-0 -right-full w-5/12 h-full bg-banner-left bg-no-repeat 
             bg-cover bg-center  duration-500'></div>
                 <Container>  
