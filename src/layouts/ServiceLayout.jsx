@@ -7,7 +7,7 @@ import ServiceImage2 from '/ServiceImage2.png'
 import ServiceImage3 from '/ServiceImage3.png'
 import SubHeading from '../components/SubHeading'
 import Heading from '../components/Heading'
-const Service = () => {
+const ServiceLayout = () => {
     return (
         <div>
 
@@ -33,4 +33,4 @@ const Service = () => {
     )
 }
 
-export default Service
+export default ServiceLayout

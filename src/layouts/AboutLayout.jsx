@@ -8,10 +8,11 @@ import AboutImage3 from '../assets/AboutImage3.png'
 import SubHeading from '../components/SubHeading'
 import Heading from '../components/Heading'
 import Button from '../components/Button'
-const About = ({ text }) => {
+import CVdownload from '../assets/Cv.pdf'
+const AboutLayout = ({ text }) => {
     return (
         <div>
-            <section className='py-[80px]'>
+            <section className='mb-[80px]'>
                 <Container>
                     <Flex>
                         <div className='w-1/2'>
@@ -35,7 +36,7 @@ const About = ({ text }) => {
                                    <p className='text-base text-[#00413D] font-Jost font-normal pt-4 pb-[50px]'> Modi tempora incidunt ut lao magnam aliquam quaerat voluptatem
                                     reprehenderit non numquam eius.</p>
                                 </div>
-                                    <Button className="pt-[20px]"  text="Download CV"/>
+                                <a download href={CVdownload}><Button className="pt-[20px]"  text="Download CV"/></a>
                             </div>
                         </div>
                     </Flex>
@@ -45,4 +46,4 @@ const About = ({ text }) => {
     )
 }
 
-export default About
+export default AboutLayout

@@ -1,18 +1,26 @@
 import React from 'react'
-import Navbar from './layouts/Navbar'
-import Banner from './layouts/Banner'
-import Service from './layouts/Service'
-import About from './layouts/About'
-import ProgressSection from './layouts/ProgressSection'
+import {
+  createRoutesFromElements,
+  createBrowserRouter,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import Home from './pages/Home';
+import Service from './pages/Service'
+import About from './pages/About';
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route path="/"element={<Home />}></Route>
+      <Route path="/service" element={<Service />}></Route>
+      <Route path="/about" element={<About />}></Route>
+    </Route>
+  )
+);
+
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Banner />
-      <Service/>
-      <About/>
-      <ProgressSection/>
-    </div>
+    <RouterProvider router={router} />
   )
 }
 
