@@ -8,6 +8,7 @@ const About = () => {
             <Navbar />            
             <AboutLayout />
             <ProgressSection/>
+            
         </>
     )
 }
