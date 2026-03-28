@@ -6,6 +6,7 @@ import Heading from '../components/Heading';
 import { TbArrowNarrowRight } from "react-icons/tb";
 import { HiMiniArrowLeft } from "react-icons/hi2";
 import ProjectCard from '../components/ProjectCard';
+import Button  from '../components/Button';
 
 const ProjectLayout = () => {
     return (
@@ -27,6 +28,9 @@ const ProjectLayout = () => {
                         <ProjectCard h5='Mobile App' h4='Branding & Digital Video Campaign For George’s Cafe' p='Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.' casetext='View Case Studies'  />
                         <ProjectCard h5='Web Development' h4='Branding & Digital Video Campaign For George’s Cafe' p='Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.' casetext='View Case Studies'/>
                     </Flex>
+                    <div className='text-center mt-[60px]'>
+                        <Button text='Explore More'/>
+                    </div>
                 </Container>
             </section>
         </div>

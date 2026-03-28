@@ -5,6 +5,7 @@ import Service from '../layouts/ServiceLayout'
 import ProgressSection from '../layouts/ProgressSection'
 import AboutLayout from '../layouts/AboutLayout'
 import ProjectLayout from '../layouts/ProjectLayout'
+import ClientLayout from '../layouts/ClientLayout'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <AboutLayout/>
         <ProgressSection/>
         <ProjectLayout/>
+        <ClientLayout/>
     </div>
   )
 }
