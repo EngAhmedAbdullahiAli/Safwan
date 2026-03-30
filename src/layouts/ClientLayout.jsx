@@ -5,6 +5,7 @@ import Heading from '../components/Heading'
 import { CgArrowLongRight } from "react-icons/cg";
 import Flex from '../components/Flex';
 import ClientCard from '../components/ClientCard';
+import ClientProfile from '../components/ClientProfile';
 const ClientLayout = () => {
     return (
         <div>
@@ -22,6 +23,10 @@ const ClientLayout = () => {
                    <Flex className='gap-x-[30px]'>
                      <ClientCard/>
                      <ClientCard/>
+                   </Flex >
+                   <Flex className='gap-x-[30px] justify-evenly'>
+                    <ClientProfile/>
+                    <ClientProfile/>
                    </Flex>
                 </Container>
             </section>
